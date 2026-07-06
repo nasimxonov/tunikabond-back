@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_sliuders",
+  "info": {
+    "displayName": "sliuders",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "slideimg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slidetitle": {
+      "type": "text"
+    },
+    "slidedescription": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

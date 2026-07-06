@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fillters",
+  "info": {
+    "singularName": "fillter",
+    "pluralName": "fillters",
+    "displayName": "Fillter"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Filltername": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "fillters"
+    }
+  }
+}

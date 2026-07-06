@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_homepage_formblocks",
+  "info": {
+    "displayName": "formblock",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "formtitle": {
+      "type": "string"
+    },
+    "formdesc": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

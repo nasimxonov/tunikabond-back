@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_homepage_aboutcontents",
+  "info": {
+    "displayName": "aboutcontents",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "abouttitle": {
+      "type": "string"
+    },
+    "aboutdescription": {
+      "type": "text"
+    },
+    "aboutmedia": {
+      "type": "component",
+      "component": "homepage.aboutmedias",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

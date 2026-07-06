@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_homepage_contacticons",
+  "info": {
+    "displayName": "contacticon",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "iconimg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

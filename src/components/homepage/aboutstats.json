@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_homepage_aboutstats",
+  "info": {
+    "displayName": "aboutstats"
+  },
+  "options": {},
+  "attributes": {
+    "aboutstatnum": {
+      "type": "integer"
+    },
+    "aboutstattitle": {
+      "type": "string"
+    },
+    "aboutstatdesc": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

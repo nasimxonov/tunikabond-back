@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_homepage_contact_infos",
+  "info": {
+    "displayName": "contact_info",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "contactcontent": {
+      "type": "component",
+      "component": "homepage.contacticon",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
